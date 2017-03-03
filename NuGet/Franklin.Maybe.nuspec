@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Franklin.Maybe</id>
+        <version>1.0.2</version>
+        <title>Franklin.Maybe</title>
+        <authors>Daniel Franklin</authors>
+        <owners>Daniel Franklin</owners>
+        <licenseUrl>https://raw.githubusercontent.com/d-franklin/Franklin.Maybe/master/LICENSE</licenseUrl>
+        <projectUrl>https://github.com/d-franklin/Franklin.Maybe</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/d-franklin/Franklin.Maybe/master/MaybeIcon.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Maybe is a value type (struct) that is guaranteed to never be NULL and either contain an object of the specified type or nothing at all.</description>
+        <summary />
+        <copyright>Daniel Franklin (c) 2017</copyright>
+        <tags>monad maybe null</tags>
+    </metadata>
+    <files>
+        <file src="..\Franklin.Maybe\Maybe.cs" target="content\net35\Franklin.Maybe\Maybe.cs" />
+        <file src="..\Franklin.Maybe\MaybeThrows.cs" target="content\net35\Franklin.Maybe\MaybeThrows.cs" />
+    </files>
+</package>
