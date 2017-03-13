@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
     <metadata>
         <id>Franklin.Maybe.Tests</id>
-        <version>1.0.2</version>
+        <version>1.0.3</version>
         <title>Franklin.Maybe.Tests</title>
         <authors>Daniel Franklin</authors>
         <owners>Daniel Franklin</owners>
@@ -18,5 +18,8 @@
     <files>
         <file src="..\Franklin.Maybe.Tests\MaybeTests.cs" target="content\net35\Franklin.Maybe\MaybeTests.cs" />
         <file src="..\Franklin.Maybe.Tests\MaybeThrowsTests.cs" target="content\net35\Franklin.Maybe\MaybeThrowsTests.cs" />
+
+        <file src="..\Franklin.Maybe.Tests\MaybeTests.cs" target="contentFiles\cs\any\MaybeTests.cs" />
+        <file src="..\Franklin.Maybe.Tests\MaybeThrowsTests.cs" target="contentFiles\cs\any\MaybeThrowsTests.cs" />
     </files>
 </package>

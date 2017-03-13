@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Franklin.Maybe.v3.ncrunchproject" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\Franklin.Maybe\Maybe.cs" Link="Maybe.cs" />
+    <Compile Include="..\..\Franklin.Maybe\MaybeThrows.cs" Link="MaybeThrows.cs" />
+  </ItemGroup>
+
+</Project>

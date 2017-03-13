@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franklin.Maybe", "Franklin.Maybe\Franklin.Maybe.csproj", "{8E4995B2-DA8A-48F9-93F3-701CDBD03163}"
 EndProject
@@ -12,6 +12,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetCore", "NetCore", "{23FC8FE5-73A8-4DAE-A7F9-4C18DC63F558}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franklin.Maybe", "NetCore\Franklin.Maybe\Franklin.Maybe.csproj", "{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franklin.Maybe.Tests", "NetCore\Franklin.Maybe.Tests\Franklin.Maybe.Tests.csproj", "{B86F481C-5A89-47C0-9295-F59EF5ADFA26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NetStandard", "NetStandard", "{A93CF401-2831-41BF-9A5E-FE019457A75E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franklin.Maybe", "NetStandard\Franklin.Maybe\Franklin.Maybe.csproj", "{E62F381D-FBE2-4433-B298-140A978ED13F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Franklin.Maybe.Tests", "NetStandard\Franklin.Maybe.Tests\Franklin.Maybe.Tests.csproj", "{71DBBBAE-9261-4910-B08B-A84A99CF220D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +39,30 @@ Global
 		{A4030D5A-F6F5-4EAB-A789-B3A35AEA74E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4030D5A-F6F5-4EAB-A789-B3A35AEA74E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4030D5A-F6F5-4EAB-A789-B3A35AEA74E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86F481C-5A89-47C0-9295-F59EF5ADFA26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86F481C-5A89-47C0-9295-F59EF5ADFA26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86F481C-5A89-47C0-9295-F59EF5ADFA26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86F481C-5A89-47C0-9295-F59EF5ADFA26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E62F381D-FBE2-4433-B298-140A978ED13F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E62F381D-FBE2-4433-B298-140A978ED13F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E62F381D-FBE2-4433-B298-140A978ED13F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E62F381D-FBE2-4433-B298-140A978ED13F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71DBBBAE-9261-4910-B08B-A84A99CF220D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71DBBBAE-9261-4910-B08B-A84A99CF220D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71DBBBAE-9261-4910-B08B-A84A99CF220D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71DBBBAE-9261-4910-B08B-A84A99CF220D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F8447BE8-DBAC-4D4C-9DBC-9B9E0A1782E2} = {23FC8FE5-73A8-4DAE-A7F9-4C18DC63F558}
+		{B86F481C-5A89-47C0-9295-F59EF5ADFA26} = {23FC8FE5-73A8-4DAE-A7F9-4C18DC63F558}
+		{E62F381D-FBE2-4433-B298-140A978ED13F} = {A93CF401-2831-41BF-9A5E-FE019457A75E}
+		{71DBBBAE-9261-4910-B08B-A84A99CF220D} = {A93CF401-2831-41BF-9A5E-FE019457A75E}
 	EndGlobalSection
 EndGlobal
