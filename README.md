@@ -2,17 +2,17 @@
 
 _Maybe is a value type (struct) that is guaranteed to never be NULL and either contain an object of the specified type or nothing at all._
 
-[![Programmers Oath](https://img.shields.io/badge/programmers-oath-brightgreen.svg)](http://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html) [![NuGet](https://img.shields.io/nuget/v/Franklin.Maybe.svg)](https://www.nuget.org/packages/Franklin.Maybe/) ![License](https://img.shields.io/github/license/d-franklin/Franklin.Maybe.svg)
+[![Programmers Oath](https://img.shields.io/badge/programmers-oath-brightgreen.svg)](http://blog.cleancoder.com/uncle-bob/2015/11/18/TheProgrammersOath.html) ![License](https://img.shields.io/github/license/d-franklin/Franklin.Maybe.svg)
 
 #### NuGet
 
 There are three versions of Maybe available on NuGet.
 
-[Franklin.Maybe](https://www.nuget.org/packages/Franklin.Maybe/) - Contains the source file for Maybe and MaybeThrows, useful if you want to include Maybe in your project without a reference to an assembly.
+[![NuGet](https://img.shields.io/nuget/v/Franklin.Maybe.svg)](https://www.nuget.org/packages/Franklin.Maybe/) [Franklin.Maybe](https://www.nuget.org/packages/Franklin.Maybe/) - Contains the source file for Maybe and MaybeThrows, useful if you want to include Maybe in your project without a reference to an assembly.
 
-[Franklin.Maybe.Tests](https://www.nuget.org/packages/Franklin.Maybe.Tests/) - Contains the unit tests for Maybe and MaybeThrows, useful for adding to your test project so coverage software doesn't report inaccurate results because of Franklin.Maybe.
+[![NuGet](https://img.shields.io/nuget/v/Franklin.Maybe.Tests.svg)](https://www.nuget.org/packages/Franklin.Maybe.Tests/) [Franklin.Maybe.Tests](https://www.nuget.org/packages/Franklin.Maybe.Tests/) - Contains the unit tests for Maybe and MaybeThrows, useful for adding to your test project so coverage software doesn't report inaccurate results because of Franklin.Maybe.
 
-[Franklin.Maybe.Assembly](https://www.nuget.org/packages/Franklin.Maybe.Assembly/) - Contains Franklin.Maybe as a compiled assembly, useful for LINQPad.
+[![NuGet](https://img.shields.io/nuget/v/Franklin.Maybe.Assembly.svg)](https://www.nuget.org/packages/Franklin.Maybe.Assembly/) [Franklin.Maybe.Assembly](https://www.nuget.org/packages/Franklin.Maybe.Assembly/) - Contains Franklin.Maybe as a compiled assembly, useful for LINQPad.
 
 #### Usage
 
