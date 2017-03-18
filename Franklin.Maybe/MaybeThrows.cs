@@ -31,7 +31,7 @@ namespace Franklin.Maybe
     /// MaybeThrows is a value type (struct) that is guaranteed to never be null and either contain an object of the specified type or nothing at all.
     /// </summary>
     /// <typeparam name="T">Type of the object Maybe contains</typeparam>
-    public struct MaybeThrows<T>
+    public struct MaybeThrows<T> : IEquatable<MaybeThrows<T>>
     {
         private readonly bool maybeHasValue;
 
